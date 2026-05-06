@@ -1,9 +1,9 @@
 .SectionButton {
-    height: 100px;
+    height: 80px;
     width: 200px;
 
     border-radius: 10px;
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
     border-color: rgb(62, 0, 0);
 
@@ -13,8 +13,21 @@
     align-content: center;
     margin: 30px;
 
+    transition: width 0.2s, height 0.2s, border-width 0.1s, border-color 0.1s;
+
     h2 {
         color: white;
         text-align: center;
     }
+}
+
+.SectionButton:hover {
+    background-color: #151515;
+    height: 88px;
+    width: 220px;
+}
+
+.selected {
+    border-width: 4px;
+    border-color: rgb(87, 0, 0);
 }
