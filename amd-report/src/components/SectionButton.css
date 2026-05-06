@@ -1,0 +1,20 @@
+.SectionButton {
+    height: 100px;
+    width: 200px;
+
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(62, 0, 0);
+
+    background-color: #0e0e0e;
+
+    justify-content: center;
+    align-content: center;
+    margin: 30px;
+
+    h2 {
+        color: white;
+        text-align: center;
+    }
+}
