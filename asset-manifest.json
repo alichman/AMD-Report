@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/amd-report/static/css/main.dcb60337.css",
+    "main.js": "/amd-report/static/js/main.584d1cfe.js",
+    "static/js/453.80958b04.chunk.js": "/amd-report/static/js/453.80958b04.chunk.js",
+    "index.html": "/amd-report/index.html",
+    "main.dcb60337.css.map": "/amd-report/static/css/main.dcb60337.css.map",
+    "main.584d1cfe.js.map": "/amd-report/static/js/main.584d1cfe.js.map",
+    "453.80958b04.chunk.js.map": "/amd-report/static/js/453.80958b04.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcb60337.css",
+    "static/js/main.584d1cfe.js"
+  ]
+}
