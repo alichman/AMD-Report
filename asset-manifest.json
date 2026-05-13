@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/amd-report/static/css/main.dcb60337.css",
-    "main.js": "/amd-report/static/js/main.584d1cfe.js",
-    "static/js/453.80958b04.chunk.js": "/amd-report/static/js/453.80958b04.chunk.js",
-    "index.html": "/amd-report/index.html",
-    "main.dcb60337.css.map": "/amd-report/static/css/main.dcb60337.css.map",
-    "main.584d1cfe.js.map": "/amd-report/static/js/main.584d1cfe.js.map",
-    "453.80958b04.chunk.js.map": "/amd-report/static/js/453.80958b04.chunk.js.map"
+    "main.css": "/AMD-Report/static/css/main.dcb60337.css",
+    "main.js": "/AMD-Report/static/js/main.2b124cbf.js",
+    "static/js/453.80958b04.chunk.js": "/AMD-Report/static/js/453.80958b04.chunk.js",
+    "index.html": "/AMD-Report/index.html",
+    "main.dcb60337.css.map": "/AMD-Report/static/css/main.dcb60337.css.map",
+    "main.2b124cbf.js.map": "/AMD-Report/static/js/main.2b124cbf.js.map",
+    "453.80958b04.chunk.js.map": "/AMD-Report/static/js/453.80958b04.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dcb60337.css",
-    "static/js/main.584d1cfe.js"
+    "static/js/main.2b124cbf.js"
   ]
 }
