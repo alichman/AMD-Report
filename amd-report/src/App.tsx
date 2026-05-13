@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useCallback, useState} from 'react';
 import './App.css';
 import {SectionButton} from "./components/SectionButton";
 import {cats} from "./Types";
@@ -10,15 +10,16 @@ function App() {
     return (
     <div className="App">
       <header className="App-header">
+          <div className="Return" onClick={useCallback(() => setCat(null), [])}/>
           <h1>AMD Report</h1>
           <Floater cat={curCat}/>
       </header>
-        <div className="ButtonFooter">
-            <SectionButton cat={cats.about} setCat={setCat} curCat={curCat}/>
-            <SectionButton cat={cats.role}  setCat={setCat} curCat={curCat}/>
-            <SectionButton cat={cats.goals}  setCat={setCat} curCat={curCat}/>
-            <SectionButton cat={cats.second}  setCat={setCat} curCat={curCat}/>
-        </div>
+      <div className="ButtonFooter">
+        <SectionButton cat={cats.about} setCat={setCat} curCat={curCat}/>
+        <SectionButton cat={cats.role}  setCat={setCat} curCat={curCat}/>
+        <SectionButton cat={cats.goals}  setCat={setCat} curCat={curCat}/>
+        <SectionButton cat={cats.second}  setCat={setCat} curCat={curCat}/>
+      </div>
     </div>
     );
 }

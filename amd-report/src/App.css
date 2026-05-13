@@ -15,8 +15,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 
-  background-color: aqua;
-
   h1 {
     text-align: center;
   }
@@ -28,5 +26,11 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+  z-index: 1;
 }
 
+.Return {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
