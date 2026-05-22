@@ -34,8 +34,11 @@
 }
 
 .vContent {
-    height: 100%;
-    width: 400px;
+    height: 85%;
     overflow-y: scroll;
+    margin: 40px;
 
+    p {
+        white-space: pre-wrap;
+    }
 }
