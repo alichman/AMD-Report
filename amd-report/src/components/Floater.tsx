@@ -4,12 +4,13 @@ import './Floater.css';
 import {goals} from "../Text/goals";
 import {useMemo} from "react";
 import {role} from "../Text/role";
+import {about} from "../Text/about";
 
 const GoalsContent = () => {
     return <div className="hScroll">
         <div>
         {goals.map(g => <div className="vContent" style={{width:400}}>
-            <h3>{g.title}</h3>
+            <h4>{g.title}</h4>
             <p>{g.content}</p>
         </div>)}
         </div>
@@ -22,15 +23,22 @@ const RoleContent = () => {
     </div>
 }
 
+const AboutContent = () => {
+    return <div className="vContent">
+        <p>{about}</p>
+    </div>
+}
+
 export const Floater = ({cat}:{cat: cats|null}) => {
 
     const content = useMemo(() => {
         switch (cat) {
             case cats.goals:
                 return GoalsContent();
-            case cats.role: {
+            case cats.role:
                 return RoleContent();
-            }
+            case cats.about:
+                return AboutContent();
             default:
                 return null;
         }

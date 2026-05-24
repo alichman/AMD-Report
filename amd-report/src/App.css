@@ -34,3 +34,18 @@
   width: 100%;
   position: absolute;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+  margin-left: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #222;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 999px;
+}

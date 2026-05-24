@@ -24,7 +24,7 @@
 .hScroll {
     height: 90%;
     width: 100%;
-    overflow-x: scroll;
+    overflow-x: auto;
     display: flex;
 }
 .hScroll > div {
@@ -35,9 +35,13 @@
 
 .vContent {
     height: 85%;
-    overflow-y: scroll;
+    overflow-y: auto;
     margin: 40px;
+    padding: 0 10px 0 10px;
 
+    h4 {
+        margin: 0;
+    }
     p {
         white-space: pre-wrap;
     }
