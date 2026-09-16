@@ -18,7 +18,7 @@ function App() {
         <SectionButton cat={cats.about} setCat={setCat} curCat={curCat}/>
         <SectionButton cat={cats.role}  setCat={setCat} curCat={curCat}/>
         <SectionButton cat={cats.goals}  setCat={setCat} curCat={curCat}/>
-        <SectionButton cat={cats.second}  setCat={setCat} curCat={curCat}/>
+        {/*<SectionButton cat={cats.second}  setCat={setCat} curCat={curCat}/>*/}
       </div>
     </div>
     );
